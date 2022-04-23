@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    /* background-color: brown; */
+    width: 100%;
+    height: 80%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+.sub-title {
+    display: flex;
+    gap: 10px;
+}
+
+.cart-display {
+    margin-top: 10px;
+}
+
+span {
+    color: blue;
+}
+
+.alert-feedback {
+    display: none;
+}
+
+.showItem {
+    display: inline;
+}
+
+
+/* .display-body {
+    background-color: azure;
+} */
+
+.footer-note {
+    margin-top: 10px;
+}

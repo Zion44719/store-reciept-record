@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style linking -->
+    <link rel="icon" sizes="32x32" href="image/zionhilt-favicon.jpg">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <link rel="stylesheet" href="main.css">
+    <title>Zionhilt Store</title>
+</head>
+
+<body>
+
+
+    <main>
+        <div class="container">
+            <div class="title">
+                <h1>Zionhilt Store</h1>
+                <p>Shop 7, Fountain Junction Ado - Ekiti</p>
+                <p>07032684859</p>
+                <div>
+                    <h3>Best Store To Get
+                        <span class="txt-rotate" data-period="2000" data-rotate='[ "Laptop", "Charger", "Battery", "Earpeice", "Flashdrive!" ]'></span>
+                    </h3>
+                </div>
+            </div>
+            <form action="" id="storeRecord">
+                <div class="sub-title">
+                    <div class="alert-feedback">expense feedback</div>
+                    <div>
+                        <label for="product">Product</label>
+                        <select name="product" id="product">
+                        <option value="" id="product">Choose...</option>
+                        <option value="Hp laptop">Hp laptop</option>
+                        <option value="mouse">mouse</option>
+                        <option value="keyboard">keyboard</option>
+                        <option value="flashdrive 32gb">Flashdrive 32gb</option>
+                        <option value="flashdrive 16gb">Flashdrive 16gb</option>
+                        <option value="Dell Laptop">Dell Laptop</option>
+                        <option value="Screen Cover">Screen Cover</option>
+                        <option value="Card Reader">Card Reader</option>
+                        <option value="Hp Charger">Hp Charger</option>
+                        <option value="Samsung Charger">Samsung Charger</option>
+                        <option value="Asus Charger">Asus Charger</option>
+                        <option value="Lenovo Charger">Lenovo Charger</option>
+                        <option value="Apple Charger">Apple Charger</option>
+                        <option value="Dell Charger">Dell Charger</option>
+                        </select>
+
+                    </div>
+                    <div class="lineup">
+                        <label for="qty">Qty</label>
+                        <input type="number" id="qty" name="qty" value="">
+                    </div>
+                    <div>
+                        <label for="amt">Amount</label>
+                        <input type="number" id="amt" name="amt" value="">
+                    </div>
+                    <div>
+                        <input type="submit" id="addBtn" value="Add"></div>
+                </div>
+                <section>
+                    <h3 class="cart-display">Display Cart</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>S/N</th>
+                                <th>Product</th>
+                                <th>Qty</th>
+                                <th>Amount</th>
+                                <th>Total</th>
+
+                            </tr>
+                        </thead>
+                        <tbody id="tableDisplay" class="display-body">
+                            <!-- <tr>
+                            <td>1</td>
+                            <td>mouse</td>
+                            <td>2</td>
+                            <td>500</td>
+                            <td>1000</td>
+                        </tr> -->
+                        </tbody>
+                    </table>
+                </section>
+            </form>
+            <button id="clearItems">Clear</button>
+            <button onclick="print()">Print</button>
+
+            <!-- <footer class="footer-note">
+                <p>All Right Reserved &trade; <b>| 2022</b> <i>Designed By Zionhilt Mushussu</i></p>
+            </footer> -->
+        </div>
+    </main>
+
+    <script src="effect.js"></script>
+</body>
+
+</html>
